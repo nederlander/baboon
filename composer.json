@@ -1,0 +1,16 @@
+{
+    "name": "nederlander/baboon",
+    "description": "Strict PHP web framework built for fun",
+    "type": "project",
+    "require": {
+        "symfony/http-foundation": "^4.0",
+        "symfony/http-kernel": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nederlander",
+            "email": "merijnkruithof@hotmail.com"
+        }
+    ]
+}
