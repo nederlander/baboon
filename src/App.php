@@ -32,7 +32,7 @@ class App
     public function __call($name, $arguments)
     {
         if (!in_array($name, $this->getAllowedRequestTypes())) {
-            throw new IllegalRequestTypeException(sprintf("%s is not a request type", $name));
+            throw new IllegalRequestTypeException(sprintf("%s is not a legal request type", $name));
         }
 
         $this->respond($name, $arguments);
